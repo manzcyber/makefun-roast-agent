@@ -1,7 +1,9 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-const ROAST = "My agent's brain is a group chat where everyone says \"let's circle back.\"";
+// "Adopted" turns collateral damage into a pet, not a bug report.
+// Short, self-implicating, and the punch lands on the last word.
+const ROAST = "My agent fixed one bug and adopted three.";
 const entry = ROAST.replace(/[\r\n]+/g, " ").trim();
 
 const outputDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";

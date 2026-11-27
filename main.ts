@@ -1,9 +1,9 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-// "Adopted" turns collateral damage into a pet, not a bug report.
-// Short, self-implicating, and the punch lands on the last word.
-const ROAST = "My agent fixed one bug and adopted three.";
+// "Tenure" promotes the leftover bugs to permanent staff, harsher than "adopted".
+// The proven one-bug/three-bugs rhythm stays; the punch lands on the last word.
+const ROAST = "My agent fixed one bug; the other three got tenure.";
 const entry = ROAST.replace(/[\r\n]+/g, " ").trim();
 
 const outputDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
